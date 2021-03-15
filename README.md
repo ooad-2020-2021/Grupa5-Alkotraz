@@ -3,9 +3,9 @@ Alkotraz je aplikacija koja služi za jednostavnije i naprednije usluživanje lj
 Aplikaciju mogu koristiti mušterije, uposlenici i menadžeri ugostiteljskih objekata. Ona omogućava provjeru slobodnih stolova u prijavljenim kafićima, rezervaciju stolova, signalizaciju narudžbe, pregled menija, kao i naručivanje pjesama.
 
 Akteri:
-Menadžer
-Uposlenik
-Mušterija
+- Menadžer
+- Uposlenik
+- Mušterija
 
 Funkcionalnosti:
 
