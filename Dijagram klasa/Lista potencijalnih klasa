@@ -2,7 +2,7 @@ Lista potencijalnih klasa:
  
 Pjesma (naziv(string), zanr (string), brojGlasova (int)) 
 
-Narudzba  (artikli list of Artikl, ukupna_cijena(double),brojNarudzbe (int)) 
+Narudzba  (artikli list of Artikl, cijena(double),brojNarudzbe (int)) 
  
 Meni (ponuda (list of Artikl)) 
  
