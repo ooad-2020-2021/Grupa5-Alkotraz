@@ -14,7 +14,7 @@ Rezervacija (izabaraniStol Stol, datumRezervacije (Date), vrijemeRezervacije (Ti
 
 Event (eventId (int), naziv (string), datumEventa (Date), vrijemeEventa(Time))
 
-Lokal (lokacija (string), lokalId (int), naziv (string))
+Lokal (lokacija (string), lokalId (int), naziv (string), eventi (lists of Event))
 
 Musterija (username (string), email (string))
 
