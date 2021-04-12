@@ -1,23 +1,23 @@
 Lista potencijalnih klasa: 
  
-Pjesma (naziv_pjesme (string), zanr_pjesme (string), broj_glasova (int)) 
+Pjesma (naziv(string), zanr (string), brojGlasova (int)) 
 
-Narudzba  (list of Artikli, ukupna_cijena(double)) 
+Narudzba  (artikli list of Artikl, ukupna_cijena(double),brojNarudzbe (int)) 
  
 Meni (ponuda (list of Artikl)) 
  
 Artikl (naziv (string), cijena (double), kolicina (int)) 
 
-Stol (id_stola (int), zauzet (bool), broj_osoba(int)) 
+Stol (brojStola (int), daLiJeZauzet (bool), brojOsoba(int)) 
  
-Rezervacija (br_stola Stol, datum_rezervacije (Date), vrijeme_rezervacije (Time), id_rezervacije (int)) 
+Rezervacija (izabaraniStol Stol, datumRezervacije (Date), vrijemeRezervacije (Time), idRezervacije (int)) 
 
-Event (event_id (int), naziv (string), datum_eventa (Date), vrijeme_eventa(Time))
+Event (eventId (int), naziv (string), datumEventa (Date), vrijemeEventa(Time))
 
-Lokal (lokacija (string), lokal_id (int), naziv (string))
+Lokal (lokacija (string), lokalId (int), naziv (string))
 
 Musterija (username (string), email (string))
 
-Uposlenik (username (string), email (string), uposlenik_id (int))
+Uposlenik (username (string), email (string), uposlenikId (int))
 
 Menadzer (username (string), email (string), lokali (list of Lokal))
