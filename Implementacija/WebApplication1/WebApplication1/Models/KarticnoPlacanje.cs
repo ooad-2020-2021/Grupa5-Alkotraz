@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebApplication1.Models
 {
-	public  class KarticnoPlacenje
+	public  class KarticnoPlacenje : Placanje
 	{
 		[Required]
 		public string brojKartice { get; set; }
