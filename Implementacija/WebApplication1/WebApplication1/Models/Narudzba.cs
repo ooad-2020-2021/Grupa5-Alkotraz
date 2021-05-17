@@ -19,7 +19,7 @@ namespace WebApplication1.Models
 		[Required]
 		public Stol stol { get; set; }
 		[Required]
-		public Placanje placanje;
+		public Placanje placanje { get; set; }
 		public Narudzba(List<Artikl> artikl);
 	}
 }
